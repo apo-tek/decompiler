@@ -44,6 +44,7 @@ The following languages are supported:
 
 - [English](src/main/resources/langs/language.properties)
 - [German](src/main/resources/langs/language_de.properties)
+- [Spanish](src/main/resources/langs/language_es.properties)
 - [French](src/main/resources/langs/language_fr.properties)
 - [Japanese](src/main/resources/langs/language_ja.properties)
 - [Dutch](src/main/resources/langs/language_nl.properties)
