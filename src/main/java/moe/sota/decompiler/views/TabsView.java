@@ -3,8 +3,8 @@ package moe.sota.decompiler.views;
 import com.formdev.flatlaf.extras.components.FlatComboBox;
 import com.formdev.flatlaf.extras.components.FlatTabbedPane;
 import com.formdev.flatlaf.extras.components.FlatToolBar;
-import moe.sota.decompiler.transformers.Transformer;
 import lombok.Getter;
+import moe.sota.decompiler.transformers.Transformer;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

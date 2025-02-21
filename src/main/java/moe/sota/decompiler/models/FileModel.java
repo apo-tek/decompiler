@@ -1,9 +1,9 @@
 package moe.sota.decompiler.models;
 
-import moe.sota.decompiler.services.TypeService;
-import moe.sota.decompiler.types.Type;
 import lombok.Getter;
 import lombok.SneakyThrows;
+import moe.sota.decompiler.services.TypeService;
+import moe.sota.decompiler.types.Type;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

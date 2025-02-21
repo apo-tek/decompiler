@@ -1,8 +1,8 @@
 package moe.sota.decompiler.views;
 
 import com.formdev.flatlaf.extras.components.FlatLabel;
-import moe.sota.decompiler.services.LanguageService;
 import lombok.Getter;
+import moe.sota.decompiler.services.LanguageService;
 import net.miginfocom.swing.MigLayout;
 
 import javax.swing.*;

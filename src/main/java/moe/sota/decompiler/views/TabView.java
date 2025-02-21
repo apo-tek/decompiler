@@ -1,10 +1,10 @@
 package moe.sota.decompiler.views;
 
-import moe.sota.decompiler.controllers.TabController;
-import moe.sota.decompiler.models.FileModel;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.SneakyThrows;
+import moe.sota.decompiler.controllers.TabController;
+import moe.sota.decompiler.models.FileModel;
 import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
 import org.fife.ui.rsyntaxtextarea.Theme;
 import org.fife.ui.rtextarea.RTextScrollPane;
@@ -108,4 +108,5 @@ public class TabView extends JPanel implements MouseWheelListener {
         revalidate();
         repaint();
     }
+
 }

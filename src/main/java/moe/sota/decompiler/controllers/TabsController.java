@@ -1,5 +1,6 @@
 package moe.sota.decompiler.controllers;
 
+import lombok.Getter;
 import moe.sota.decompiler.menus.file.FileCloseTab;
 import moe.sota.decompiler.models.FileModel;
 import moe.sota.decompiler.services.ProcessService;
@@ -7,7 +8,6 @@ import moe.sota.decompiler.transformers.Transformer;
 import moe.sota.decompiler.types.ClassType;
 import moe.sota.decompiler.views.TabView;
 import moe.sota.decompiler.views.TabsView;
-import lombok.Getter;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;

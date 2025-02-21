@@ -1,11 +1,11 @@
 package moe.sota.decompiler.controllers;
 
+import lombok.Getter;
 import moe.sota.decompiler.models.FileModel;
 import moe.sota.decompiler.types.ClassType;
 import moe.sota.decompiler.types.ImageType;
 import moe.sota.decompiler.types.Type;
 import moe.sota.decompiler.views.TabView;
-import lombok.Getter;
 import org.fife.ui.rsyntaxtextarea.SyntaxConstants;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;

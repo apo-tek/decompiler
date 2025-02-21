@@ -2,10 +2,10 @@ package moe.sota.decompiler.views;
 
 import com.formdev.flatlaf.extras.components.FlatScrollPane;
 import com.formdev.flatlaf.extras.components.FlatTree;
+import lombok.Getter;
 import moe.sota.decompiler.controllers.TabsController;
 import moe.sota.decompiler.models.BaseModel;
 import moe.sota.decompiler.models.FileModel;
-import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

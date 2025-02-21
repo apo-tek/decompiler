@@ -1,9 +1,9 @@
 package moe.sota.decompiler.controllers;
 
+import lombok.Getter;
 import moe.sota.decompiler.models.ArchiveModel;
 import moe.sota.decompiler.models.BaseModel;
 import moe.sota.decompiler.views.TreeView;
-import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.tree.DefaultMutableTreeNode;

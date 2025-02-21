@@ -2,14 +2,14 @@ package moe.sota.decompiler.views;
 
 import com.formdev.flatlaf.extras.components.FlatSplitPane;
 import com.formdev.flatlaf.util.SystemInfo;
+import lombok.Getter;
+import lombok.SneakyThrows;
 import moe.sota.decompiler.controllers.StartController;
 import moe.sota.decompiler.controllers.TabsController;
 import moe.sota.decompiler.controllers.TreeController;
 import moe.sota.decompiler.menus.MenuBar;
 import moe.sota.decompiler.services.LanguageService;
 import moe.sota.decompiler.services.LoaderService;
-import lombok.Getter;
-import lombok.SneakyThrows;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

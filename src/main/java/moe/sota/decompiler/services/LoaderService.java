@@ -1,13 +1,13 @@
 package moe.sota.decompiler.services;
 
-import moe.sota.decompiler.controllers.TreeController;
+import lombok.experimental.UtilityClass;
 import moe.sota.decompiler.controllers.TabsController;
+import moe.sota.decompiler.controllers.TreeController;
 import moe.sota.decompiler.controllers.WindowController;
 import moe.sota.decompiler.models.ArchiveModel;
 import moe.sota.decompiler.models.BaseModel;
 import moe.sota.decompiler.models.FileModel;
 import moe.sota.decompiler.models.PackageModel;
-import lombok.experimental.UtilityClass;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

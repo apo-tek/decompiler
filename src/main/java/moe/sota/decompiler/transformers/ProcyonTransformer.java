@@ -1,11 +1,11 @@
 package moe.sota.decompiler.transformers;
 
-import moe.sota.decompiler.models.FileModel;
 import com.strobel.assembler.metadata.ArrayTypeLoader;
 import com.strobel.decompiler.Decompiler;
 import com.strobel.decompiler.DecompilerSettings;
 import com.strobel.decompiler.ITextOutput;
 import com.strobel.decompiler.PlainTextOutput;
+import moe.sota.decompiler.models.FileModel;
 import org.jetbrains.annotations.NotNull;
 
 public class ProcyonTransformer implements ITransformer {

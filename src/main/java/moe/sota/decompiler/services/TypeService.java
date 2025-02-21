@@ -1,11 +1,11 @@
 package moe.sota.decompiler.services;
 
+import lombok.experimental.UtilityClass;
 import moe.sota.decompiler.models.FileModel;
 import moe.sota.decompiler.types.ClassType;
 import moe.sota.decompiler.types.ImageType;
 import moe.sota.decompiler.types.ManifestType;
 import moe.sota.decompiler.types.Type;
-import lombok.experimental.UtilityClass;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;

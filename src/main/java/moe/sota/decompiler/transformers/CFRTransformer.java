@@ -8,7 +8,10 @@ import org.benf.cfr.reader.bytecode.analysis.parse.utils.Pair;
 import org.benf.cfr.reader.util.getopt.OptionsImpl;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
 
 public class CFRTransformer implements ITransformer, ClassFileSource, OutputSinkFactory, OutputSinkFactory.Sink<String> {
 

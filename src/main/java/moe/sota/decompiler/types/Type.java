@@ -1,7 +1,7 @@
 package moe.sota.decompiler.types;
 
-import moe.sota.decompiler.models.FileModel;
 import lombok.Getter;
+import moe.sota.decompiler.models.FileModel;
 
 @Getter
 public abstract class Type {
