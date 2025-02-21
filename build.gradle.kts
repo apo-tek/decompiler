@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "com.sotasan"
-version = "1.0.0"
+version = "0.9.9"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_11
