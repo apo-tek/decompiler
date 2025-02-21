@@ -6,5 +6,5 @@ group = "moe.sota"
 
 tasks.jar {
     archiveExtension = "zip"
-    manifest.attributes("Agent-Class" to "${project.group}.${project.name.lowercase()}.Main")
+    manifest.attributes("Agent-Class" to "${project.group}.${rootProject.name.lowercase()}.Main")
 }
