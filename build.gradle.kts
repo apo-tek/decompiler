@@ -8,7 +8,7 @@ plugins {
     kotlin("jvm") version "2.1.10"
 }
 
-group = "com.sotasan"
+group = "moe.sota"
 version = "0.9.9"
 
 java {
