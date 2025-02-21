@@ -46,6 +46,7 @@ dependencies {
 
 tasks {
     processResources {
+        dependsOn(":agent:build")
         outputs.upToDateWhen { false }
         filesMatching("application.properties") {
             expand(project.properties)
