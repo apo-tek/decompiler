@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="src/test/java/com/sotasan/decompiler/Main.java"><img width="85%" alt="Screenshot" src="src/test/resources/META-INF/screenshot.png"></a>
+    <a href="src/test/java/com/sotasan/decompiler/Main.java"><img width="85%" alt="Screenshot" src="assets/screenshot.png"></a>
 </p>
 
 <p align="center">
