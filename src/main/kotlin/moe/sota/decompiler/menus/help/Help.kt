@@ -8,7 +8,7 @@ import java.awt.event.KeyEvent
 class Help : FlatMenu() {
 
     init {
-        isVisible = Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.APP_ABOUT)
+        isVisible = !(Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.APP_ABOUT))
         mnemonic = KeyEvent.VK_H
         text = LanguageService.getTranslation("help")
 
