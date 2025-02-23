@@ -24,7 +24,6 @@ import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.io.File;
 import java.util.List;
-import java.util.Objects;
 
 @Getter
 public class WindowView extends JFrame {
@@ -43,10 +42,11 @@ public class WindowView extends JFrame {
         setPreferredSize(new Dimension(1000, 600));
         setTitle("Decompiler");
 
-        Image logo = Toolkit.getDefaultToolkit().createImage(Objects.requireNonNull(LanguageService.class.getClassLoader().getResource("logo/logo.png")));
+        String logo = SystemInfo.isMacOS ? "logo/logo-macos.png" : "logo/logo.png";
+        Image image = Toolkit.getDefaultToolkit().createImage(LanguageService.class.getClassLoader().getResource(logo));
         if (Taskbar.isTaskbarSupported() && Taskbar.getTaskbar().isSupported(Taskbar.Feature.ICON_IMAGE))
-            Taskbar.getTaskbar().setIconImage(logo);
-        setIconImage(logo);
+            Taskbar.getTaskbar().setIconImage(image);
+        setIconImage(image);
 
         splitPane = new FlatSplitPane();
         splitPane.setDividerLocation(225);
