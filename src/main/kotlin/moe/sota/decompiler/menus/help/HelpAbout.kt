@@ -12,7 +12,7 @@ class HelpAbout : FlatMenuItem(), ActionListener {
 
     init {
         mnemonic = KeyEvent.VK_A
-        text = LanguageService.getTranslation("about").format("Decompiler")
+        text = LanguageService.getTranslation("about")
         addActionListener(this)
 
         if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.APP_ABOUT))
