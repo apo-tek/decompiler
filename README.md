@@ -8,7 +8,7 @@
     <a href="LICENSE.txt"><img alt="License" src="https://img.shields.io/github/license/sotasan/decompiler?label=License"></a>
 </p>
 
-# <img src="src/main/resources/logo/logo.png" alt="Logo" width="32"> Decompiler
+# <img src="src/main/resources/logo/logo.png" alt="Logo" width="32" align="center"> Decompiler
 
 A GUI application that allows you to browse Java archives using various decompilers.
 
