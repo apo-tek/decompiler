@@ -44,17 +44,17 @@ public class AboutView extends JDialog {
         setTitle(String.format(LanguageService.getTranslation("about"), "Decompiler"));
 
         root = new JPanel();
-        root.setBorder(new EmptyBorder(15, 15, 15, 15));
+        root.setBorder(new EmptyBorder(16, 16, 16, 16));
         root.setLayout(new BorderLayout());
         setContentPane(root);
 
         content = new JPanel();
-        content.setBorder(new EmptyBorder(0, 0, 15, 0));
+        content.setBorder(new EmptyBorder(0, 0, 16, 0));
         content.setLayout(new MigLayout());
         root.add(content, BorderLayout.CENTER);
 
         logo = new FlatLabel();
-        logo.setBorder(new EmptyBorder(0, 0, 0, 15));
+        logo.setBorder(new EmptyBorder(0, 0, 0, 16));
         logo.setIcon(new ImageIcon(getOwner().getIconImages().get(0).getScaledInstance(64, 64, Image.SCALE_SMOOTH)));
         logo.setVerticalAlignment(JLabel.TOP);
         content.add(logo, "dock west");
@@ -64,20 +64,20 @@ public class AboutView extends JDialog {
         header.setText("Decompiler");
         content.add(header, "wrap");
 
-        copyright = new FlatLabel();
-        copyright.setText(String.format("\u00a9 2022 - %s S\u014Dta", Year.now().getValue()));
-        content.add(copyright, "wrap");
-
         Properties properties = new Properties();
         properties.load(LanguageService.class.getClassLoader().getResourceAsStream("application.properties"));
         version = new FlatLabel();
         version.setText(String.format(LanguageService.getTranslation("about.version"), properties.getProperty("version")));
         content.add(version, "wrap");
 
+        copyright = new FlatLabel();
+        copyright.setText(String.format("\u00a9 2022 - %s S\u014Dta", Year.now().getValue()));
+        content.add(copyright, "wrap");
+
         vm = new JPanel();
         vm.setBorder(BorderFactory.createTitledBorder(LanguageService.getTranslation("about.vm")));
         vm.setLayout(new MigLayout());
-        content.add(vm, "wrap, gapy 15px");
+        content.add(vm, "wrap, gapy 16px");
 
         vmName = new FlatLabel();
         vmName.setText(ManagementFactory.getRuntimeMXBean().getVmName());
@@ -102,7 +102,7 @@ public class AboutView extends JDialog {
         github.setText("GitHub");
         controls.add(github);
 
-        controls.add(Box.createHorizontalStrut(5));
+        controls.add(Box.createHorizontalStrut(8));
 
         ok = new FlatButton();
         ok.addActionListener(this::onOkAction);
