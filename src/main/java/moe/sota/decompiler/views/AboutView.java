@@ -41,7 +41,7 @@ public class AboutView extends JDialog {
         getRootPane().putClientProperty(FlatClientProperties.TITLE_BAR_SHOW_ICON, false);
         setModal(true);
         setResizable(false);
-        setTitle(LanguageService.getTranslation("about"));
+        setTitle(String.format(LanguageService.getTranslation("about"), "Decompiler"));
 
         root = new JPanel();
         root.setBorder(new EmptyBorder(15, 15, 15, 15));
