@@ -18,7 +18,7 @@ You can download the application from the [releases](https://github.com/sotasan/
 
 ## Usage
 
-To run the application, make sure you have Java 11+ installed and then simply execute the JAR file.
+To run the application, make sure you have Java 17+ installed and then simply execute the JAR file.
 
 To open an archive, select `File > Open File (Ctrl + O)` in the menu bar or directly drag and drop it.
 
@@ -58,7 +58,7 @@ and create a [pull request](https://github.com/sotasan/decompiler/pulls).
 ## Build
 
 To build the application from source,
-make sure you have Java 11+ installed,
+make sure you have Java 17+ installed,
 then simply build it using Gradle:
 
 ```bash

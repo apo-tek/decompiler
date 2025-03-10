@@ -12,12 +12,12 @@ group = "moe.sota"
 version = "0.9.9"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 kotlin.compilerOptions {
-    jvmTarget = JvmTarget.JVM_11
+    jvmTarget = JvmTarget.JVM_17
 }
 
 application {
@@ -41,7 +41,7 @@ dependencies {
     implementation("net.fabricmc:cfr:0.2.2")
     implementation("org.bitbucket.mstrobel:procyon-compilertools:0.6.0")
     implementation("org.jetbrains:annotations:26.0.2")
-    implementation("org.vineflower:vineflower:1.10.1")
+    implementation("org.vineflower:vineflower:1.11.1")
 }
 
 tasks {
